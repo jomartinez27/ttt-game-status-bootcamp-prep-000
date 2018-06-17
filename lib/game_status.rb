@@ -48,4 +48,6 @@ def over?(board)
 end
 
 def winner(board)
+  x_won = won?(board)
+  return "X" if board[x_won[0]]
 end
