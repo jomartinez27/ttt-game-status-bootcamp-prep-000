@@ -54,5 +54,9 @@ def winner(board)
   
   win = won?(board)
   
-  
+  if board[win[0]] == "X"
+    return "X"
+  else
+    "O"
+  end
 end
